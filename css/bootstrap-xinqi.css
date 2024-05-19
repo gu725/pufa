@@ -34,35 +34,35 @@ body{
 .navbar-toggle{
     margin-top: 17px;
 }
-.banner {
-    text-align: center;
-    color: #fff;
-    background: url('https://img2.imgtp.com/2024/05/19/wKsfKVOy.jpg') center/cover no-repeat;
-}
-.lvjing {
+.banner{text-align:center;color: #fff;background:url(https://img2.imgtp.com/2024/05/19/wKsfKVOy.jpg);background-size:100% 100%;}
+.lvjing{
     width: 100%;
     height: 100%;
     background: rgba(0,0,0,0.7);
     padding: 80px 0;
 }
-#home {
-    width: 100%;
+/*home*/
+ /*#home{
+    margin-top: 70px;
+    background: url("https://img2.imgtp.com/2024/05/19/wKsfKVOy.jpg");
+    background-size: cover;
     color: #ffffff;
     text-align: center;
+    width: 100%;
 }
-#home h1 {
+#home h1{
     font-weight: bold;
     margin-top: 0;
     margin-bottom: 25px;
 }
-#home p {
+#home p{
     font-weight: 400;
     line-height: 35px;
 }
-#home img {
+#home img{
     margin-top: 30px;
     display: inline-block;
-}
+} */
 /*bbs*/
 #bbs{
     padding: 80px 0;
