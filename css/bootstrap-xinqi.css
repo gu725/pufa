@@ -34,7 +34,7 @@ body{
 .navbar-toggle{
     margin-top: 17px;
 }
-.banner{text-align:center;color: #fff;background:url(../images/banner.jpg);background-size:100% 100%;}
+.banner{text-align:center;color: #fff;background:url(https://s21.ax1x.com/2024/05/19/pkKVKL8.md.jpg);background-size:100% 100%;}
 .lvjing{
     width: 100%;
     height: 100%;
@@ -45,8 +45,7 @@ body{
 home {
     margin-top: 70px;
     background: url("https://s21.ax1x.com/2024/05/19/pkKVKL8.md.jpg");
-    background-size: contain; /* 按比例缩放图片以完全显示在容器内 */
-    background-repeat: no-repeat; /* 防止图片重复 */
+    background-size: contain; /* 让图片按比例缩放以完全显示在容器内 */
     background-position: center; /* 图片居中显示 */
     color: #ffffff;
     text-align: center;
