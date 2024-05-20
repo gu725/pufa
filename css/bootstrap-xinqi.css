@@ -45,6 +45,15 @@ body{
   }
 }
 
+@keyframes fadeInBackground {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .banner {
     text-align: center;
     color: #fff;
@@ -142,10 +151,10 @@ body{
 
 /*contact*/
 #contact {
-    background: url("https://s21.ax1x.com/2024/05/19/pkKV1oQ.md.jpg") no-repeat;
-    background-size: contain; /* 让图片按比例缩放以完全显示在容器内 */
-    background-position: center; /* 图片居中显示 */
+    background: url("https://s21.ax1x.com/2024/05/19/pkKV1oQ.md.jpg") no-repeat center center;
+    background-size: contain;
     color: #ffffff;
+    animation: fadeInBackground 1s ease-out 0s 1;
 }
 #contact h2{
     font-weight: bold;
