@@ -34,35 +34,34 @@ body{
 .navbar-toggle{
     margin-top: 17px;
 }
-.banner{text-align:center;color: #fff;background:url(../images/banner.jpg);background-size:100% 100%;}
-.lvjing{
-    width: 100%;
-    height: 100%;
-    background: rgba(0,0,0,0.7);
-    padding: 80px 0;
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
-/*home*/
- #home{
-    margin-top: 70px;
-    background: url("http://sdqbamrpd.hn-bkt.clouddn.com/banner.jpg?e=1716116542&token=OO1PZHnJ3OJGDhMLy13BScElvpADs8efbOj22O_4:PuBOvqZ6z93tCBgGJgwpHHQ0H1k=");
-    background-size: cover;
-    color: #ffffff;
+
+@keyframes fadeInBackground {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.banner {
     text-align: center;
-    width: 100%;
+    color: #fff;
+    background: url("https://img2.imgtp.com/2024/05/19/wKsfKVOy.jpg") no-repeat center center;
+    background-size: cover;
+    padding: 80px 0;
+    animation: 1s ease-out 0s 1 slideInFromLeft;
 }
-#home h1{
-    font-weight: bold;
-    margin-top: 0;
-    margin-bottom: 25px;
-}
-#home p{
-    font-weight: 400;
-    line-height: 35px;
-}
-#home img{
-    margin-top: 30px;
-    display: inline-block;
-} */
 /*bbs*/
 #bbs{
     padding: 80px 0;
@@ -151,9 +150,10 @@ body{
 }
 
 /*contact*/
-#contact{
-    background: url("http://sdqbamrpd.hn-bkt.clouddn.com/contact-bg.jpg?e=1716116588&token=OO1PZHnJ3OJGDhMLy13BScElvpADs8efbOj22O_4:7l7Q56Yq008sDCi8xdpQ7mjlPfQ=") no-repeat;
-    background-size: cover;
+#contact {
+    background: url("https://s21.ax1x.com/2024/05/19/pkKV1oQ.md.jpg") no-repeat;
+    background-size: contain; /* 让图片按比例缩放以完全显示在容器内 */
+    background-position: center; /* 图片居中显示 */
     color: #ffffff;
 }
 #contact h2{
@@ -182,6 +182,14 @@ body{
 }
 #contact input[type="submit"]:hover{
     background: rgb(44, 142, 120);
+}
+
+/*footer*/
+footer{
+    font-weight: 400;
+    text-align: center;
+    padding:20px;
+    color:#999;
 }
 
 /*footer*/
